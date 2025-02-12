@@ -1,0 +1,120 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+  line-height: 1.1;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+/* CSS Reset */
+
+body {
+  background: url(./images/books-8594725.jpg) no-repeat center center / cover;
+  font-family: "Roboto", serif;
+  /* padding: 1rem; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+h1 {
+  color: #f0f0f0;
+  background-color: rgb(29, 28, 26, 0.75);
+  padding: 0.25rem 2.5rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #f0f0f0;
+  border-radius: 0.5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content {
+  width: 50%;
+  min-height: 40%;
+  background-color: #f0f0f0;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0.5rem #1D1C1A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.5rem;
+  text-align: center;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: #1D1C1A;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: #f0f0f0;
+  font-size: 1.25rem;
+}
+
+.btn:active {
+  background-color: #A7C7E7;
+}
+
+.author {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  font-size: 1.5rem;
+  color: #ff645c;
+}
+
+.quote {
+  font-size: 1.25rem;
+}
